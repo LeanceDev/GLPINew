@@ -1,0 +1,37 @@
+1719305033
+350d8da80b276dbfedd339f565666af845f6704e
+a:1:{s:62:"bn_count_tickets_assigned_7455c855-6df8-4514-a3d9-8b0fce52bd63";s:1278:"      <style>
+         #bn_280624109 {
+            background-color: #eaf5f7;
+            color: #56afbf;
+         }
+
+         #bn_280624109:hover {
+            background-color: #b3dbe2;
+            border: 1px solid #7bc0cd;
+         }
+
+         .theme-dark #bn_280624109 {
+            background-color: #56afbf;
+            color: #eaf5f7;
+         }
+
+         .theme-dark #bn_280624109:hover {
+            background-color: #b3dbe2;
+            color: #56afbf;
+            border: 1px solid #7bc0cd;
+         }
+      </style>
+      <a href='/glpiOld/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=2&reset=reset'
+         id="bn_280624109"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="278"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">278</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Tickets assignés">Tickets assignés</div>
+         <i class="main-icon fas fa-users"></i>
+      </a>";}

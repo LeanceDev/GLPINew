@@ -1,0 +1,151 @@
+1719318285
+10a7f2ca507e4ac2b31d033913c7d7142aa84f7e
+a:1:{s:59:"top_ticket_user_assign_80ec79e3-9c49-4602-a183-e5fc1d02a9fe";s:7445:"      <style>
+         #chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b {
+            background-color: #fafafa;
+            color: #949494
+         }
+
+         .theme-dark #chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b {
+            background-color: #2e2e2e;
+            color: #949494;
+         }
+
+         #chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b .ct-label {
+            fill: #949494;
+            color: #949494;
+         }
+
+         .theme-dark #chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b .ct-label {
+            fill: #949494;
+            color: #949494;
+         }
+
+         
+      </style>
+      <div style="height: 100%">
+         <div class="card g-chart pie filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+            id="chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b">
+            <div class="chart ct-chart"></div>
+            <span class="main-label">Top des assignements de tickets</span>
+            <i class="main-icon ti ti-user"></i>
+         </div>
+      </div><script type="text/javascript">
+//<![CDATA[
+
+      $(function () {
+         var chart = new Chartist.Pie('#chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b .chart', {
+            labels: ["JEANNE MADOLA","Elizabeth ANYI TAKU","HYACINTHE GOULA","EMILE DIWEDI","Isma\u00ebl Bertin NGUIMDO","Yanick Jojo NGOMOU TCHOUA","Yvan MENANGA"],
+            series: [{"meta":"JEANNE MADOLA","value":8365,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=2051&reset=reset"},{"meta":"Elizabeth ANYI TAKU","value":6920,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=827&reset=reset"},{"meta":"HYACINTHE GOULA","value":5063,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=2150&reset=reset"},{"meta":"EMILE DIWEDI","value":5021,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=1977&reset=reset"},{"meta":"Isma\u00ebl Bertin NGUIMDO","value":1853,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=866&reset=reset"},{"meta":"Yanick Jojo NGOMOU TCHOUA","value":1768,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=590&reset=reset"},{"meta":"Yvan MENANGA","value":1591,"url":"\/glpiOld\/front\/ticket.php?criteria%5B0%5D%5Blink%5D=AND&criteria%5B0%5D%5Bfield%5D=5&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=599&reset=reset"}],
+         }, {
+            width: 'calc(100% - 5px)',
+            chartPadding: 4,
+            donut: false,
+            
+         showLabel: false,
+      
+            
+            donutWidth: '50%',
+            plugins: [
+               Chartist.plugins.tooltip({
+                  appendToBody: true,
+                  class: 'dashboard-tooltip'
+               })
+            ]
+         });
+
+
+         chart.on('draw', function(data) {
+            // animate
+            if (data.type === 'slice') {
+               // set url redirecting on slice
+               var url = _.get(data, 'series.url') || "";
+               if (url.length > 0) {
+                  data.element.attr({
+                     'data-clickable': true
+                  });
+                  data.element._node.onclick = function() {
+                     if (!Dashboard.edit_mode) {
+                        window.location = url;
+                     }
+                  }
+               }
+
+               // Get the total path length in order to use for dash array animation
+               var pathLength = data.element._node.getTotalLength();
+
+               // Set a dasharray that matches the path length as prerequisite to animate dashoffset
+               data.element.attr({
+                  'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'
+               });
+
+               // Create animation definition while also assigning an ID to the animation for later sync usage
+               var animationDefinition = {
+                  'stroke-dashoffset': {
+                     id: 'anim' + data.index,
+                     dur: 1000,
+                     from: -pathLength + 'px',
+                     to:  '0px',
+                     easing: Chartist.Svg.Easing.easeOutQuint,
+                     // We need to use `fill: 'freeze'` otherwise our animation will fall back to initial (not visible)
+                     fill: 'freeze'
+                  }
+               };
+
+               // We need to set an initial value before the animation starts as we are not in guided mode which would do that for us
+               data.element.attr({
+                  'stroke-dashoffset': -pathLength + 'px'
+               });
+
+               // We can't use guided mode as the animations need to rely on setting begin manually
+               // See http://gionkunz.github.io/chartist-js/api-documentation.html#chartistsvg-function-animate
+               data.element.animate(animationDefinition, false);
+            }
+
+            // donut center label
+            if (data.type === 'label') {
+               if (data.index === 0) {
+                  var width = data.element.root().width() / 2;
+                  var height = data.element.root().height() / 2;
+                  var fontsize = ((height / 1) / (1.3 * "30.6K".length));
+                  data.element.attr({
+                     dx: width,
+                     dy: height - (4 / 2),
+                     'style': 'font-size: '+fontsize,
+                  });
+
+                  // apend real total
+                  var text = new Chartist.Svg('title');
+                  text.text("30581");
+                  data.element.append(text);
+               } else {
+                  data.element.remove();
+               }
+            }
+
+            // fade others bars on one mouseouver
+            chart.on('created', function(bar) {
+               $('#chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b .ct-series')
+                  .mouseover(function() {
+                     $(this).parent().children().addClass('disable-animation');
+                     $(this).addClass('mouseover');
+                     $(this).siblings()
+                        .addClass('notmouseover');
+
+                     $('#chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b .ct-label')
+                        .addClass('fade');
+                  })
+                  .mouseout(function() {
+                     $(this).removeClass('mouseover');
+                     $(this).siblings()
+                        .removeClass('notmouseover');
+
+                     $('#chart-dashboard_card_central_f3f93bb1d5ca8f8ce4f0ed6f57a369489940d44b .ct-label')
+                        .removeClass('fade');
+                  });
+            });
+         });
+      });
+
+//]]>
+</script>";}

@@ -1,0 +1,137 @@
+0
+ce27fb672077eed63f82b82514b55ca673836cd1
+s:7682:"#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b {
+  /*!
+ * ---------------------------------------------------------------------
+ *
+ * GLPI - Gestionnaire Libre de Parc Informatique
+ *
+ * http://glpi-project.org
+ *
+ * @copyright 2015-2022 Teclib' and contributors.
+ * @copyright 2003-2014 by the INDEPNET Development Team.
+ * @licence   https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * ---------------------------------------------------------------------
+ *
+ * LICENSE
+ *
+ * This file is part of GLPI.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * ---------------------------------------------------------------------
+ */
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-point, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-line, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-bar, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-slice-donut {
+  stroke: #92adc9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-bar + .ct-barlabel {
+  fill: setcolor(#92adc9);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-circle {
+  fill: #92adc9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-circle + .ct-label {
+  fill: #92adc9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-slice-pie, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-area, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-a .ct-slice-donut-solid {
+  fill: #92adc9;
+  stroke: setcolor(#92adc9);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-0:before {
+  background-color: #92adc9;
+  border-color: #92adc9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-point, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-line, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-bar, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-slice-donut {
+  stroke: #648fb9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-bar + .ct-barlabel {
+  fill: setcolor(#648fb9);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-circle {
+  fill: #648fb9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-circle + .ct-label {
+  fill: #648fb9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-slice-pie, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-area, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-b .ct-slice-donut-solid {
+  fill: #648fb9;
+  stroke: setcolor(#648fb9);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-1:before {
+  background-color: #648fb9;
+  border-color: #648fb9;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-point, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-line, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-bar, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-slice-donut {
+  stroke: #41709f;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-bar + .ct-barlabel {
+  fill: setcolor(#41709f);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-circle {
+  fill: #41709f;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-circle + .ct-label {
+  fill: #41709f;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-slice-pie, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-area, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-c .ct-slice-donut-solid {
+  fill: #41709f;
+  stroke: setcolor(#41709f);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-2:before {
+  background-color: #41709f;
+  border-color: #41709f;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-point, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-line, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-bar, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-slice-donut {
+  stroke: #2c5277;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-bar + .ct-barlabel {
+  fill: setcolor(#2c5277);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-circle {
+  fill: #2c5277;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-circle + .ct-label {
+  fill: #2c5277;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-slice-pie, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-area, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-d .ct-slice-donut-solid {
+  fill: #2c5277;
+  stroke: setcolor(#2c5277);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-3:before {
+  background-color: #2c5277;
+  border-color: #2c5277;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-point, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-line, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-bar, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-slice-donut {
+  stroke: #1a334d;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-bar + .ct-barlabel {
+  fill: setcolor(#1a334d);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-circle {
+  fill: #1a334d;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-circle + .ct-label {
+  fill: #1a334d;
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-slice-pie, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-area, #chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-e .ct-slice-donut-solid {
+  fill: #1a334d;
+  stroke: setcolor(#1a334d);
+}
+#chart_dashboard_card_central_1e5d42fa676cc75f2bd8f9aea120b86b5241871b .ct-series-4:before {
+  background-color: #1a334d;
+  border-color: #1a334d;
+}
+";

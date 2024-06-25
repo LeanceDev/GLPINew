@@ -1,0 +1,37 @@
+1719318282
+e50b106cb5740c6c2072e4aae1d07dbce9ce99d1
+a:1:{s:52:"bn_count_Entity_9b82951a-ba52-45cc-a2d3-1d238ec37adf";s:1069:"      <style>
+         #bn_927176510 {
+            background-color: #f9f9f9;
+            color: #939393;
+         }
+
+         #bn_927176510:hover {
+            background-color: #d3d3d3;
+            border: 1px solid #adadad;
+         }
+
+         .theme-dark #bn_927176510 {
+            background-color: #939393;
+            color: #f9f9f9;
+         }
+
+         .theme-dark #bn_927176510:hover {
+            background-color: #d3d3d3;
+            color: #939393;
+            border: 1px solid #adadad;
+         }
+      </style>
+      <a href='/glpiOld/front/entity.php?reset=reset'
+         id="bn_927176510"
+         class="card big-number  filter-dates filter-dates_mod"
+         title="">
+         <span class="content">            <span title="10"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">10</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Entités">Entités</div>
+         <i class="main-icon ti ti-stack"></i>
+      </a>";}

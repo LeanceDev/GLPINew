@@ -1,0 +1,288 @@
+[2023-12-08 13:55:15] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_knowbaseitemtranslations` SET `language` = 'es_419' WHERE `language` = 'es_41'
+  Error: Table 'glpi1.glpi_knowbaseitemtranslations' doesn't exist
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.3_to_9.4.5.php:91    Migration->executeMigration()
+  src/Update.php:258                                 update943to945()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-08 15:00:55] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-08 15:04:31] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-08 15:07:36] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-08 15:08:58] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-08 15:09:35] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-11 11:00:59] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"@verone-HP-ProBook-440-G5"} 
+[2023-12-12 16:51:00] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-12 16:59:09] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_knowbaseitemtranslations` SET `language` = 'es_419' WHERE `language` = 'es_41'
+  Error: Table 'glpi1.glpi_knowbaseitemtranslations' doesn't exist
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.3_to_9.4.5.php:91    Migration->executeMigration()
+  src/Update.php:258                                 update943to945()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-12 17:02:38] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-12 17:36:03] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT `id`, `answer`, `users_id` FROM `glpi_knowbaseitems` WHERE `answer` REGEXP 'document\\.send\\.php\\?docid=[0-9]+'
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1056                               DBmysqlIterator->execute()
+  install/migrations/update_9.5.1_to_9.5.2.php:75    DBmysql->request()
+  src/Update.php:258                                 update951to952()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-13 08:31:30] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/CommonDBTM.php:3229                            CommonDBTM->getEmpty()
+  src/CommonGLPI.php:465                             CommonDBTM->maybeTemplate()
+  src/KnowbaseItem.php:102                           CommonGLPI::getMenuContent()
+  src/Html.php:1555                                  KnowbaseItem::getMenuContent()
+  src/Html.php:1780                                  Html::generateMenuSession()
+  front/central.php:82                               Html::header()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-13 08:32:48] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/Dashboard/Provider.php:168                     CommonDBTM->getEmpty()
+  :                                                  Glpi\Dashboard\Provider::__callStatic()
+  src/Dashboard/Grid.php:958                         call_user_func_array()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-13 08:32:48] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/CommonDBTM.php:3113                            CommonDBTM->getEmpty()
+  src/Dashboard/Provider.php:117                     CommonDBTM->isEntityAssign()
+  src/Dashboard/Provider.php:169                     Glpi\Dashboard\Provider::bigNumberItem()
+  :                                                  Glpi\Dashboard\Provider::__callStatic()
+  src/Dashboard/Grid.php:958                         call_user_func_array()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  {"user":"2@verone-HP-ProBook-440-G5","mem_usage":"0.002\", 17.59Mio)"} 
+[2023-12-13 08:32:48] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT COUNT(DISTINCT(`glpi_knowbaseitems`.`id`)) AS `cpt` FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1056                               DBmysqlIterator->execute()
+  src/Dashboard/Provider.php:132                     DBmysql->request()
+  src/Dashboard/Provider.php:169                     Glpi\Dashboard\Provider::bigNumberItem()
+  :                                                  Glpi\Dashboard\Provider::__callStatic()
+  src/Dashboard/Grid.php:958                         call_user_func_array()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  {"user":"2@verone-HP-ProBook-440-G5","mem_usage":"0.060\", 19.74Mio)"} 
+[2023-12-13 08:40:50] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/CommonDBTM.php:3229                            CommonDBTM->getEmpty()
+  src/CommonGLPI.php:465                             CommonDBTM->maybeTemplate()
+  src/KnowbaseItem.php:102                           CommonGLPI::getMenuContent()
+  src/Html.php:1555                                  KnowbaseItem::getMenuContent()
+  src/Html.php:1780                                  Html::generateMenuSession()
+  front/mailcollector.php:40                         Html::header()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-13 08:41:21] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/CommonDBTM.php:3229                            CommonDBTM->getEmpty()
+  src/CommonGLPI.php:465                             CommonDBTM->maybeTemplate()
+  src/KnowbaseItem.php:102                           CommonGLPI::getMenuContent()
+  src/Html.php:1555                                  KnowbaseItem::getMenuContent()
+  src/Html.php:1780                                  Html::generateMenuSession()
+  front/central.php:82                               Html::header()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-13 08:41:37] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/Dashboard/Provider.php:168                     CommonDBTM->getEmpty()
+  :                                                  Glpi\Dashboard\Provider::__callStatic()
+  src/Dashboard/Grid.php:958                         call_user_func_array()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-13 08:41:37] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysql.php:889                                
+  src/CommonDBTM.php:611                             DBmysql->listFields()
+  src/CommonDBTM.php:3113                            CommonDBTM->getEmpty()
+  src/Dashboard/Provider.php:117                     CommonDBTM->isEntityAssign()
+  src/Dashboard/Provider.php:169                     Glpi\Dashboard\Provider::bigNumberItem()
+  :                                                  Glpi\Dashboard\Provider::__callStatic()
+  src/Dashboard/Grid.php:958                         call_user_func_array()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  {"user":"2@verone-HP-ProBook-440-G5","mem_usage":"0.005\", 17.59Mio)"} 
+[2023-12-13 08:41:37] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT COUNT(DISTINCT(`glpi_knowbaseitems`.`id`)) AS `cpt` FROM `glpi_knowbaseitems`
+  Error: Table 'glpi1.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1056                               DBmysqlIterator->execute()
+  src/Dashboard/Provider.php:132                     DBmysql->request()
+  src/Dashboard/Provider.php:169                     Glpi\Dashboard\Provider::bigNumberItem()
+  :                                                  Glpi\Dashboard\Provider::__callStatic()
+  src/Dashboard/Grid.php:958                         call_user_func_array()
+  ajax/dashboard.php:128                             Glpi\Dashboard\Grid->getCardHtml()
+  {"user":"2@verone-HP-ProBook-440-G5","mem_usage":"0.168\", 19.74Mio)"} 
+[2023-12-14 09:13:10] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_knowbaseitemtranslations` SET `language` = 'es_419' WHERE `language` = 'es_41'
+  Error: Table 'glpi_last.glpi_knowbaseitemtranslations' doesn't exist
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.3_to_9.4.5.php:91    Migration->executeMigration()
+  src/Update.php:258                                 update943to945()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-14 09:28:26] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: UPDATE `glpi_displaypreferences` SET `num` = '5' WHERE `num` = '2' AND `itemtype` = 'Profile'
+  Error: Duplicate entry '0-Profile-5' for key 'unicity'
+  Backtrace :
+  src/DBmysql.php:428                                
+  src/Migration.php:838                              DBmysql->queryOrDie()
+  install/migrations/update_9.4.0_to_9.4.1.php:175   Migration->executeMigration()
+  src/Update.php:258                                 update940to941()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 
+[2023-12-14 09:32:19] glpisqllog.ERROR: DBmysql::query() in /opt/lampp/htdocs/glpi/src/DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT `id`, `answer`, `users_id` FROM `glpi_knowbaseitems` WHERE `answer` REGEXP 'document\\.send\\.php\\?docid=[0-9]+'
+  Error: Table 'glpi_last.glpi_knowbaseitems' doesn't exist
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1056                               DBmysqlIterator->execute()
+  install/migrations/update_9.5.1_to_9.5.2.php:75    DBmysql->request()
+  src/Update.php:258                                 update951to952()
+  install/update.php:143                             Update->doUpdates()
+  install/update.php:252                             doUpdateDb()
+  {"user":"2@verone-HP-ProBook-440-G5"} 

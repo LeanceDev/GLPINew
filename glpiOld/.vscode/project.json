@@ -1,0 +1,8 @@
+{
+    "_comment": "The authentication can be proceed in two ways. Using combination of username and password or token. The project.json which contains two of them at once is invalid.",
+    "project": "sonarteam_glpi",
+    "sonarURL": "https://sonarcloud.io",
+    "auth": {
+        "token": "e6258cdeff8d4885f9d10736aaf5bda75bde61d4"
+    }
+}

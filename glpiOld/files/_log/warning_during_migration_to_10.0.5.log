@@ -1,0 +1,16 @@
+2023-12-12 20:01:02 [2@verone-HP-ProBook-440-G5]
+209 colonnes utilisent la définition dépréciée, DATETIME. Lancez la commande "php bin/console glpi:migration:timestamps" pour les migrer. @ 2023-12-12 20:01:11 [2@verone-HP-ProBook-440-G5]
+350 tables utilisent le charset déprécié, utf8mb3. Lancez la commande "php bin/console glpi:migration:utf8mb4" pour les migrer. @ 2023-12-12 20:01:11 [2@verone-HP-ProBook-440-G5]
+1148 colonnes primaires ou étrangères utilisent des entiers signés Lancez la commande "php bin/console glpi:migration:unsigned_keys" pour les migrer. @ 2023-12-12 20:02:39 [2@verone-HP-ProBook-440-G5]
+Le schéma de base de données n'est pas conforme à celui de la version actuelle de GLPI.
+Il est recommandé de lancer la commande "php bin/console glpi:database:check_schema_integrity" pour voir les différences. @ 2023-12-14 10:55:32 [2@verone-HP-ProBook-440-G5]
+209 colonnes utilisent la définition dépréciée, DATETIME. Lancez la commande "php bin/console glpi:migration:timestamps" pour les migrer. @ 2023-12-14 10:55:32 [2@verone-HP-ProBook-440-G5]
+351 tables utilisent le charset déprécié, utf8mb3. Lancez la commande "php bin/console glpi:migration:utf8mb4" pour les migrer. @ 2023-12-14 10:55:33 [2@verone-HP-ProBook-440-G5]
+1153 colonnes primaires ou étrangères utilisent des entiers signés Lancez la commande "php bin/console glpi:migration:unsigned_keys" pour les migrer. @ 2023-12-14 10:55:47 [2@verone-HP-ProBook-440-G5]
+Le schéma de base de données n'est pas conforme à celui de la version actuelle de GLPI.
+Il est recommandé de lancer la commande "php bin/console glpi:database:check_schema_integrity" pour voir les différences. @ 2024-02-28 18:37:06 [@verone-HP-ProBook-440-G5]
+209 columns are using the deprecated datetime storage field type. Run the "php bin/console glpi:migration:timestamps" command to migrate them. @ 2024-02-28 18:37:07 [@verone-HP-ProBook-440-G5]
+351 tables are using the deprecated utf8mb3 storage charset. Run the "php bin/console glpi:migration:utf8mb4" command to migrate them. @ 2024-02-28 18:37:07 [@verone-HP-ProBook-440-G5]
+1153 primary or foreign keys columns are using signed integers. Run the "php bin/console glpi:migration:unsigned_keys" command to migrate them. @ 2024-02-28 18:37:33 [@verone-HP-ProBook-440-G5]
+The database schema is not consistent with the current GLPI version.
+It is recommended to run the "php bin/console glpi:database:check_schema_integrity" command to see the differences. @ 

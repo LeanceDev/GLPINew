@@ -1,0 +1,107 @@
+2023-11-28 15:07:40 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/login.php2023-11-28 15:07:53 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/login.php2023-11-28 16:52:23 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/ticket.form.php?id=30218 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6309 displayRightError()
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6399 displayAccessDeniedPage()
+		/opt/lampp/htdocs/glpi/front/ticket.form.php:259 displayFullPageForItem()
+2023-11-28 16:52:43 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/ticket.form.php?id=30218 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6309 displayRightError()
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6399 displayAccessDeniedPage()
+		/opt/lampp/htdocs/glpi/front/ticket.form.php:259 displayFullPageForItem()
+2023-11-28 16:52:53 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/ticket.form.php?id=30216 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6309 displayRightError()
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6399 displayAccessDeniedPage()
+		/opt/lampp/htdocs/glpi/front/ticket.form.php:259 displayFullPageForItem()
+2023-11-29 18:16:19 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2023-12-04 11:16:48 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:17:48 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:18:49 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:19:49 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:20:49 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:21:49 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:22:49 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:23:49 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:24:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:25:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:26:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:27:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:28:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:29:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:30:50 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:31:51 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-04 11:32:51 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/front/crontask.form.php?id=92023-12-14 12:44:11 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2023-12-14 12:44:16 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2023-12-21 15:46:17 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/profile_user.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Profile_User ID: -1
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:3001 displayRightError()
+		/opt/lampp/htdocs/glpi/front/profile_user.form.php:45 check()
+2023-12-21 17:50:43 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2023-12-27 21:22:48 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/ticket.form.php2023-12-27 21:26:44 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/ticket.form.php2023-12-27 21:35:09 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/ticket.form.php2023-12-27 21:39:15 [2922@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2922 at /glpi/front/ticket.form.php2023-12-27 21:56:26 [2922@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2922 at /glpi/front/ticket.form.php2023-12-27 21:59:07 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/profile_user.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Profile_User ID: -1
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:3001 displayRightError()
+		/opt/lampp/htdocs/glpi/front/profile_user.form.php:45 check()
+2024-01-18 13:49:58 [2926@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2926 at /glpi/front/ticket.form.php2024-01-18 14:09:48 [2926@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2926 at /glpi/front/ticket.form.php2024-01-18 14:09:55 [2926@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2926 at /glpi/front/ticket.form.php2024-01-19 08:33:07 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/ajax/getDropdownValue.php2024-01-19 10:08:25 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/ajax/getDropdownValue.php2024-01-19 11:21:45 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/ajax/itillayout.php2024-01-19 17:38:32 [2926@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2926 at /glpi/front/ticket.form.php2024-01-19 17:41:08 [2926@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2926 at /glpi/front/ticket.form.php2024-02-15 14:54:25 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/ticket.form.php2024-02-18 16:11:34 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/ticket.form.php?id=45175 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6309 displayRightError()
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6399 displayAccessDeniedPage()
+		/opt/lampp/htdocs/glpi/front/ticket.form.php:259 displayFullPageForItem()
+2024-02-19 09:24:59 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/ajax/getDropdownValue.php2024-02-20 21:16:17 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/Session.php:931 displayRightError()
+		/opt/lampp/htdocs/glpi/front/central.php:80 checkCentralAccess()
+2024-02-20 21:16:22 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/Session.php:931 displayRightError()
+		/opt/lampp/htdocs/glpi/front/central.php:80 checkCentralAccess()
+2024-02-20 21:16:59 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/Session.php:931 displayRightError()
+		/opt/lampp/htdocs/glpi/front/central.php:80 checkCentralAccess()
+2024-02-20 21:23:07 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6309 displayRightError()
+		/opt/lampp/htdocs/glpi/src/CommonDBTM.php:6399 displayAccessDeniedPage()
+		/opt/lampp/htdocs/glpi/front/user.form.php:241 displayFullPageForItem()
+2024-02-23 09:50:40 [2@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID: 2 at /glpi/front/tracking.injector.php2024-03-05 08:52:22 [@verone-HP-ProBook-440-G5]
+CSRF check failed for User ID:  at /glpi/index.php2024-03-05 09:45:27 [2@verone-HP-ProBook-440-G5]
+User ID: 2 tried to access or perform an action on /glpi/front/config.form.php with insufficient rights. Additional information: User is missing the 1 (READ) right for config
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/Session.php:1027 displayRightError()
+		/opt/lampp/htdocs/glpi/front/config.form.php:39 checkRight()
+2024-03-05 10:44:01 [2923@verone-HP-ProBook-440-G5]
+User ID: 2923 tried to access or perform an action on /glpi/front/central.php with insufficient rights. Additional information: The current profile does not use the standard interface
+	Stack Trace:
+		/opt/lampp/htdocs/glpi/src/Session.php:931 displayRightError()
+		/opt/lampp/htdocs/glpi/front/central.php:80 checkCentralAccess()
+2024-06-18 15:16:52 [2@DESKTOP-Q1751HI]
+CSRF check failed for User ID: 2 at /glpiOld/front/ticket.form.php
