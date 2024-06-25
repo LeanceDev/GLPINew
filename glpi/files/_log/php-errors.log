@@ -1,0 +1,740 @@
+[2024-06-06 15:45:16] glpiphplog.WARNING: Test logger  
+[2024-06-10 15:41:46] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in C:\xampp\htdocs\glpi\src\Entity.php at line 2620
+  Backtrace :
+  ...\View\Extension\FrontEndAssetsExtension.php:194 Entity->getCustomCssTag()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\central.php:43                               include()
+  
+[2024-06-10 15:41:47] glpiphplog.WARNING: Test logger  
+[2024-06-10 15:42:25] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_users does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\configs.php:45 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:25] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_users does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\configs.php:46 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:26] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_items_devicesimcards does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\simcard.php:40 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:26] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_transfers does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...rations\update_10.0.5_to_10.0.6\transfer.php:41 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:26] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:44 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:26] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:45 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:26] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DbUtils.php at line 662
+  Backtrace :
+  src\DbUtils.php:662                                trigger_error()
+  inc\db.function.php:471                            DbUtils->isIndex()
+  src\Migration.php:594                              isIndex()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:46 Migration->addKey()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:42:49] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in C:\xampp\htdocs\glpi\src\Entity.php at line 2620
+  Backtrace :
+  ...\View\Extension\FrontEndAssetsExtension.php:194 Entity->getCustomCssTag()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\central.php:43                               include()
+  
+[2024-06-10 15:42:49] glpiphplog.WARNING: Test logger  
+[2024-06-10 15:42:53] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in C:\xampp\htdocs\glpi\src\Entity.php at line 2620
+  Backtrace :
+  ...\View\Extension\FrontEndAssetsExtension.php:194 Entity->getCustomCssTag()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-06-10 15:42:53] glpiphplog.WARNING: Test logger  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_users does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\configs.php:45 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_users does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\configs.php:46 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_items_devicesimcards does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\simcard.php:40 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_transfers does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...rations\update_10.0.5_to_10.0.6\transfer.php:41 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:44 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:45 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:43:00] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DbUtils.php at line 662
+  Backtrace :
+  src\DbUtils.php:662                                trigger_error()
+  inc\db.function.php:471                            DbUtils->isIndex()
+  src\Migration.php:594                              isIndex()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:46 Migration->addKey()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:46:57] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in C:\xampp\htdocs\glpi\src\Entity.php at line 2620
+  Backtrace :
+  ...\View\Extension\FrontEndAssetsExtension.php:194 Entity->getCustomCssTag()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-06-10 15:46:57] glpiphplog.WARNING: Test logger  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_users does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\configs.php:45 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_users does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\configs.php:46 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_items_devicesimcards does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...grations\update_10.0.5_to_10.0.6\simcard.php:40 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_transfers does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...rations\update_10.0.5_to_10.0.6\transfer.php:41 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:44 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DBmysql.php at line 1240
+  Backtrace :
+  src\DBmysql.php:1240                               trigger_error()
+  src\Migration.php:444                              DBmysql->fieldExists()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:45 Migration->addField()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 15:49:51] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_unmanageds does not exists in C:\xampp\htdocs\glpi\src\DbUtils.php at line 662
+  Backtrace :
+  src\DbUtils.php:662                                trigger_error()
+  inc\db.function.php:471                            DbUtils->isIndex()
+  src\Migration.php:594                              isIndex()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:46 Migration->addKey()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  
+[2024-06-10 16:23:37] glpiphplog.WARNING: Test logger  
+[2024-06-10 16:25:12] glpiphplog.DEBUG: Html::compileScss() in C:\xampp\htdocs\glpi\src\Html.php line 6910
+Compile css/standalone/dashboard.scss  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 16:25:16] glpiphplog.DEBUG: Html::compileScss() in C:\xampp\htdocs\glpi\src\Html.php line 6910
+Compile css/palettes/auror.scss  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 16:25:28] glpiphplog.DEBUG: Html::compileScss() in C:\xampp\htdocs\glpi\src\Html.php line 6910
+Compile css/standalone/gridstack-grids.scss  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 16:25:33] glpiphplog.DEBUG: Html::compileScss() in C:\xampp\htdocs\glpi\src\Html.php line 6910
+Compile css/standalone/chartist.scss  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-18 10:30:22] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:301 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 10:30:27] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:301 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 10:30:38] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:301 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 10:35:30] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:301 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 10:36:50] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:301 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 10:58:00] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:308 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 11:20:24] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:305 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 15:14:41] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:305 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 15:40:31] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:305 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 15:40:40] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:305 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-18 15:41:33] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:305 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 09:31:21] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:302 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 09:31:45] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:302 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 09:31:53] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:302 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 09:32:45] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:302 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 10:29:30] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\d1\d15b2febd7168fb57393aef587d15972.php:302 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_7b4ebc23f5899f9fe62ce25ef094f3f8->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 10:51:20] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:303 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 10:53:17] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:304 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 11:13:08] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:307 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 12:58:30] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:307 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 13:03:44] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:305 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 13:10:20] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Too few arguments to function Glpi\Application\View\Extension\SessionExtension::session(), 0 passed in C:\xampp\htdocs\glpi\files\_cache\templates\0a\0a544fd19c35d39717b1d2eb04eed90d.php on line 306 and exactly 1 expected")." in template "C:\xampp\htdocs\glpi\templates\components\itilobject\layout-ticket.html.twig" at line 148
+  Backtrace :
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-19 13:18:29] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:332 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 17:01:16] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 17:04:09] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 17:56:22] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 17:58:22] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 17:58:27] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:03:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unknown field: 'isNewItem' in C:\xampp\htdocs\glpi\src\CommonITILObject.php at line 269
+  Backtrace :
+  src\CommonITILObject.php:269                       trigger_error()
+  ...\twig\twig\src\Extension\CoreExtension.php:1546 CommonITILObject->__isset()
+  ...ates\1d\1d305fc690a82f052a2a11dcbecc6a19.php:49 twig_get_attribute()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_bdb07dcc5324501a43a05c639f6078c5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\Template.php:379              Twig\Template->display()
+  vendor\twig\twig\src\TemplateWrapper.php:38        Twig\Template->render()
+  ...\twig\twig\src\Extension\CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:101 twig_include()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:03:34] glpiphplog.WARNING:   *** PHP User Warning (512): Unknown field: 'isNewItem' in C:\xampp\htdocs\glpi\src\CommonITILObject.php at line 269
+  Backtrace :
+  src\CommonITILObject.php:269                       trigger_error()
+  ...\twig\twig\src\Extension\CoreExtension.php:1546 CommonITILObject->__isset()
+  ...ates\1d\1d305fc690a82f052a2a11dcbecc6a19.php:69 twig_get_attribute()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_bdb07dcc5324501a43a05c639f6078c5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\Template.php:379              Twig\Template->display()
+  vendor\twig\twig\src\TemplateWrapper.php:38        Twig\Template->render()
+  ...\twig\twig\src\Extension\CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:101 twig_include()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:03:34] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:03:41] glpiphplog.WARNING:   *** PHP User Warning (512): Unknown field: 'isNewItem' in C:\xampp\htdocs\glpi\src\CommonITILObject.php at line 269
+  Backtrace :
+  src\CommonITILObject.php:269                       trigger_error()
+  ...\twig\twig\src\Extension\CoreExtension.php:1546 CommonITILObject->__isset()
+  ...ates\1d\1d305fc690a82f052a2a11dcbecc6a19.php:49 twig_get_attribute()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_bdb07dcc5324501a43a05c639f6078c5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\Template.php:379              Twig\Template->display()
+  vendor\twig\twig\src\TemplateWrapper.php:38        Twig\Template->render()
+  ...\twig\twig\src\Extension\CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:101 twig_include()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:03:41] glpiphplog.WARNING:   *** PHP User Warning (512): Unknown field: 'isNewItem' in C:\xampp\htdocs\glpi\src\CommonITILObject.php at line 269
+  Backtrace :
+  src\CommonITILObject.php:269                       trigger_error()
+  ...\twig\twig\src\Extension\CoreExtension.php:1546 CommonITILObject->__isset()
+  ...ates\1d\1d305fc690a82f052a2a11dcbecc6a19.php:69 twig_get_attribute()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_bdb07dcc5324501a43a05c639f6078c5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\Template.php:379              Twig\Template->display()
+  vendor\twig\twig\src\TemplateWrapper.php:38        Twig\Template->render()
+  ...\twig\twig\src\Extension\CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:101 twig_include()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:03:41] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-20 18:17:49] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-06-21 09:39:57] glpiphplog.WARNING:   *** PHP User Warning (512): IDOR token cannot be generated with empty criteria. in C:\xampp\htdocs\glpi\src\Session.php at line 1652
+  Backtrace :
+  src\Session.php:1652                               trigger_error()
+  ...tes\0a\0a544fd19c35d39717b1d2eb04eed90d.php:309 Session::getNewIDORToken()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_808afd667812fd114a10961aecced057->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4430                                Glpi\Application\View\TemplateRenderer->display()
+  src\CommonGLPI.php:680                             Ticket->showForm()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  

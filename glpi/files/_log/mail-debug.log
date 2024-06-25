@@ -1,0 +1,15 @@
+2024-06-10 16:25:35 [2@DESKTOP-Q1751HI]
+3 - Connection: opening to 172.21.55.47:25, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)
+2024-06-10 16:25:56 [2@DESKTOP-Q1751HI]
+3 - Connection failed. Error #2: stream_socket_client(): Unable to connect to 172.21.55.47:25 (Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu) [C:\xampp\htdocs\glpi\vendor\phpmailer\phpmailer\src\SMTP.php line 397]
+2024-06-10 16:25:56 [2@DESKTOP-Q1751HI]
+1 - SMTP ERROR: Failed to connect to server: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu (10060)
+2024-06-10 16:25:56 [2@DESKTOP-Q1751HI]
+3 - SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting

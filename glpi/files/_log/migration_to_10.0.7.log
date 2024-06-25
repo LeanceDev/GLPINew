@@ -1,0 +1,46 @@
+2024-06-10 16:23:47 [2@DESKTOP-Q1751HI]
+1 seconde for "Traitement en cours..."
+2024-06-10 16:23:47 [2@DESKTOP-Q1751HI]
+0 seconde for "Migration de données - glpi_displaypreferences"
+2024-06-10 16:23:47 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_contracts"
+2024-06-10 16:23:47 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_domains_items"
+2024-06-10 16:23:47 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_businesscriticities"
+2024-06-10 16:23:47 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_documentcategories"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+1 seconde for "Changement de la structure de la base de données - glpi_entities"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_groups"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_ipnetworks"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_itilcategories"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_knowbaseitemcategories"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_locations"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_softwarecategories"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_softwarelicenses"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_softwarelicensetypes"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_states"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_taskcategories"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_tickets"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_unmanageds"
+2024-06-10 16:23:48 [2@DESKTOP-Q1751HI]
+0 seconde for "Changement de la structure de la base de données - glpi_items_devicecameras_imageformats"
+2024-06-10 16:23:49 [2@DESKTOP-Q1751HI]
+1 seconde for "Changement de la structure de la base de données - glpi_items_devicecameras_imageresolutions"
+2024-06-10 16:23:49 [2@DESKTOP-Q1751HI]
+0 seconde for "Valeur de configuration ajoutée pour smtp_oauth_provider, smtp_oauth_client_id, smtp_oauth_client_secret, smtp_oauth_options, smtp_oauth_refresh_token (core)."
+2024-06-10 16:23:49 [2@DESKTOP-Q1751HI]
+0 seconde for "Traitement terminé."

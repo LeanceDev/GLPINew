@@ -1,0 +1,88 @@
+2024-06-06 15:48:29 [@DESKTOP-Q1751HI]
+Interne #1 : Démarrage contract
+2024-06-07 09:28:16 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage infocom
+2024-06-09 19:40:46 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage mailgate
+2024-06-10 11:35:21 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage session
+2024-06-10 12:05:05 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage graph
+2024-06-10 15:39:35 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage reservation
+2024-06-10 16:25:34 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage watcher
+2024-06-10 16:25:56 [2@DESKTOP-Q1751HI]
+Erreur dans l'envoi du courriel<br/>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+2024-06-11 09:31:27 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage queuednotificationclean
+2024-06-13 14:19:18 [@DESKTOP-Q1751HI]
+Interne #1 : Démarrage certificate
+2024-06-14 02:21:15 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage contract
+2024-06-14 09:39:27 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage session
+2024-06-14 09:45:48 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage createinquest
+2024-06-18 09:20:23 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage alertnotclosed
+2024-06-18 09:27:21 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage planningrecall
+2024-06-18 09:50:16 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage slaticket
+2024-06-18 09:58:55 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage graph
+2024-06-18 10:30:21 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage RecurrentItems
+2024-06-18 10:35:28 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage reservation
+2024-06-18 10:36:35 [@DESKTOP-Q1751HI]
+Interne #1 : Démarrage temp
+2024-06-18 10:57:53 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage telemetry
+2024-06-18 11:18:46 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage infocom
+2024-06-18 15:14:17 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage watcher
+2024-06-18 15:14:39 [2@DESKTOP-Q1751HI]
+Erreur dans l'envoi du courriel<br/>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/TroubleshootingSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+2024-06-18 15:40:30 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage queuednotificationclean
+2024-06-19 09:31:15 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage certificate
+2024-06-19 09:31:21 [@DESKTOP-Q1751HI]
+Interne #1 : Démarrage contract
+2024-06-19 10:29:29 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage session
+2024-06-19 10:35:55 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage createinquest
+2024-06-19 10:45:40 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage planningrecall
+2024-06-19 10:51:19 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage slaticket
+2024-06-19 11:04:02 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage graph
+2024-06-19 11:13:08 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage RecurrentItems
+2024-06-19 11:18:49 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage reservation
+2024-06-19 12:51:34 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage temp
+2024-06-19 12:58:29 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage alertnotclosed
+2024-06-19 13:03:42 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage planningrecall
+2024-06-19 13:09:21 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage slaticket
+2024-06-19 13:18:24 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage infocom
+2024-06-20 17:04:08 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage graph
+2024-06-20 17:51:13 [@DESKTOP-Q1751HI]
+Interne #1 : Démarrage RecurrentItems
+2024-06-20 17:56:21 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage reservation
+2024-06-20 18:03:33 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage planningrecall
+2024-06-20 18:17:45 [2@DESKTOP-Q1751HI]
+Interne #1 : Démarrage slaticket
