@@ -1,0 +1,800 @@
+[2024-06-10 15:41:46] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_entities` WHERE `glpi_entities`.`id` = '0' LIMIT 1
+  Error: Table 'glpi_last.glpi_entities' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:308                             DBmysql->request()
+  ...\View\Extension\FrontEndAssetsExtension.php:189 CommonDBTM->getFromDB()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\central.php:43                               include()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:42:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_plugins` SET `state` = '4' WHERE `state` = '1'
+  Error: Table 'glpi_last.glpi_plugins' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Plugin.php:1188                                DBmysql->update()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:42:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:617                             DBmysql->listFields()
+  src\CommonDBTM.php:3460                            CommonDBTM->getEmpty()
+  src\CommonDBTM.php:3879                            CommonDBTM->isField()
+  src\CommonDBTM.php:3813                            CommonDBTM->rawSearchOptions()
+  src\CommonDBTM.php:4170                            CommonDBTM->searchOptions()
+  src\CommonDBTM.php:4248                            CommonDBTM->getSearchOptionByField()
+  src\CommonDBTM.php:1308                            CommonDBTM->filterValues()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.038\", 16.30Mio)"} 
+[2024-06-10 15:42:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:617                             DBmysql->listFields()
+  src\CommonDBTM.php:3460                            CommonDBTM->getEmpty()
+  src\CommonDBTM.php:3890                            CommonDBTM->isField()
+  src\CommonDBTM.php:3813                            CommonDBTM->rawSearchOptions()
+  src\CommonDBTM.php:4170                            CommonDBTM->searchOptions()
+  src\CommonDBTM.php:4248                            CommonDBTM->getSearchOptionByField()
+  src\CommonDBTM.php:1308                            CommonDBTM->filterValues()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.017\", 16.30Mio)"} 
+[2024-06-10 15:42:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:1316                            DBmysql->listFields()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.027\", 16.82Mio)"} 
+[2024-06-10 15:42:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_profiles`.`id` FROM `glpi_profiles` INNER JOIN `glpi_profilerights` AS `right1` ON (`right1`.`profiles_id` = `glpi_profiles`.`id` AND `right1`.`name` = 'cable_management' AND `right1`.`rights` & 23 = 23)
+  Error: Table 'glpi_last.glpi_profiles' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:1352                             DBmysql->request()
+  ...migrations\update_10.0.5_to_10.0.6\cable.php:48 Migration->updateRight()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.378\", 17.00Mio)"} 
+[2024-06-10 15:42:25] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_rulecriterias`.`id` AS `criteria_id`, `glpi_rulecriterias`.`criteria`, `glpi_rules`.`sub_type` FROM `glpi_rulecriterias` LEFT JOIN `glpi_rules` ON (`glpi_rulecriterias`.`rules_id` = `glpi_rules`.`id`) WHERE `glpi_rulecriterias`.`criteria` = 'name' AND `glpi_rules`.`sub_type` IN ('RuleDictionnaryOperatingSystemServicePack', 'RuleDictionnaryOperatingSystemEdition', 'RuleDictionnaryOperatingSystemArchitecture', 'RuleDictionnaryOperatingSystemVersion', 'RuleDictionnaryOperatingSystem')
+  Error: Table 'glpi_last.glpi_rulecriterias' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  ...\migrations\update_10.0.5_to_10.0.6\rule.php:75 DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.145\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_rules` WHERE `sub_type` = 'RuleImportAsset'
+  Error: Table 'glpi_last.glpi_rules' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\DbUtils.php:524                                DBmysql->request()
+  inc\db.function.php:192                            DbUtils->countElementsInTable()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:49 countElementsInTable()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.087\", 17.03Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `users_id` FROM `glpi_displaypreferences` WHERE `itemtype` = 'NetworkPort'
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:951                              DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('NetworkPort', '6', '1', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `users_id` FROM `glpi_displaypreferences` WHERE `itemtype` = 'QueuedNotification'
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:951                              DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '16', '1', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '7', '2', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '20', '3', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.02Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '21', '4', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.03Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '22', '5', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.03Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '15', '6', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 17.03Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: DELETE `glpi_displaypreferences` FROM `glpi_displaypreferences` WHERE `itemtype` = 'QueueMail' AND `num` IN ('16', '7', '20', '21', '22', '15')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1614                               DBmysql->doQuery()
+  src\Migration.php:1016                             DBmysql->delete()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 17.03Mio)"} 
+[2024-06-10 15:42:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: ALTER TABLE `glpi_users` ADD `timeline_action_btn_layout` tinyint DEFAULT 0   ,
+ADD `timeline_date_format` tinyint DEFAULT 0   
+  Error: Table 'glpi_last.glpi_users' doesn't exist
+  Backtrace :
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\Migration.php:801                              DBmysql->doQueryOrDie()
+  src\Migration.php:846                              Migration->migrationOneTable()
+  install\migrations\update_10.0.5_to_10.0.6.php:69  Migration->executeMigration()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.291\", 17.03Mio)"} 
+[2024-06-10 15:42:49] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_entities` WHERE `glpi_entities`.`id` = '0' LIMIT 1
+  Error: Table 'glpi_last.glpi_entities' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:308                             DBmysql->request()
+  ...\View\Extension\FrontEndAssetsExtension.php:189 CommonDBTM->getFromDB()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  front\central.php:43                               include()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:42:53] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_entities` WHERE `glpi_entities`.`id` = '0' LIMIT 1
+  Error: Table 'glpi_last.glpi_entities' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:308                             DBmysql->request()
+  ...\View\Extension\FrontEndAssetsExtension.php:189 CommonDBTM->getFromDB()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_plugins` SET `state` = '4' WHERE `state` = '1'
+  Error: Table 'glpi_last.glpi_plugins' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Plugin.php:1188                                DBmysql->update()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:617                             DBmysql->listFields()
+  src\CommonDBTM.php:3460                            CommonDBTM->getEmpty()
+  src\CommonDBTM.php:3879                            CommonDBTM->isField()
+  src\CommonDBTM.php:3813                            CommonDBTM->rawSearchOptions()
+  src\CommonDBTM.php:4170                            CommonDBTM->searchOptions()
+  src\CommonDBTM.php:4248                            CommonDBTM->getSearchOptionByField()
+  src\CommonDBTM.php:1308                            CommonDBTM->filterValues()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.016\", 16.21Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:617                             DBmysql->listFields()
+  src\CommonDBTM.php:3460                            CommonDBTM->getEmpty()
+  src\CommonDBTM.php:3890                            CommonDBTM->isField()
+  src\CommonDBTM.php:3813                            CommonDBTM->rawSearchOptions()
+  src\CommonDBTM.php:4170                            CommonDBTM->searchOptions()
+  src\CommonDBTM.php:4248                            CommonDBTM->getSearchOptionByField()
+  src\CommonDBTM.php:1308                            CommonDBTM->filterValues()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.015\", 16.21Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:1316                            DBmysql->listFields()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.026\", 16.73Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_profiles`.`id` FROM `glpi_profiles` INNER JOIN `glpi_profilerights` AS `right1` ON (`right1`.`profiles_id` = `glpi_profiles`.`id` AND `right1`.`name` = 'cable_management' AND `right1`.`rights` & 23 = 23)
+  Error: Table 'glpi_last.glpi_profiles' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:1352                             DBmysql->request()
+  ...migrations\update_10.0.5_to_10.0.6\cable.php:48 Migration->updateRight()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.132\", 16.91Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_rulecriterias`.`id` AS `criteria_id`, `glpi_rulecriterias`.`criteria`, `glpi_rules`.`sub_type` FROM `glpi_rulecriterias` LEFT JOIN `glpi_rules` ON (`glpi_rulecriterias`.`rules_id` = `glpi_rules`.`id`) WHERE `glpi_rulecriterias`.`criteria` = 'name' AND `glpi_rules`.`sub_type` IN ('RuleDictionnaryOperatingSystemServicePack', 'RuleDictionnaryOperatingSystemEdition', 'RuleDictionnaryOperatingSystemArchitecture', 'RuleDictionnaryOperatingSystemVersion', 'RuleDictionnaryOperatingSystem')
+  Error: Table 'glpi_last.glpi_rulecriterias' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  ...\migrations\update_10.0.5_to_10.0.6\rule.php:75 DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.026\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_rules` WHERE `sub_type` = 'RuleImportAsset'
+  Error: Table 'glpi_last.glpi_rules' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\DbUtils.php:524                                DBmysql->request()
+  inc\db.function.php:192                            DbUtils->countElementsInTable()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:49 countElementsInTable()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.031\", 16.94Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `users_id` FROM `glpi_displaypreferences` WHERE `itemtype` = 'NetworkPort'
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:951                              DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('NetworkPort', '6', '1', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `users_id` FROM `glpi_displaypreferences` WHERE `itemtype` = 'QueuedNotification'
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:951                              DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '16', '1', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '7', '2', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '20', '3', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '21', '4', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '22', '5', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '15', '6', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: DELETE `glpi_displaypreferences` FROM `glpi_displaypreferences` WHERE `itemtype` = 'QueueMail' AND `num` IN ('16', '7', '20', '21', '22', '15')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1614                               DBmysql->doQuery()
+  src\Migration.php:1016                             DBmysql->delete()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.000\", 16.93Mio)"} 
+[2024-06-10 15:43:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: ALTER TABLE `glpi_users` ADD `timeline_action_btn_layout` tinyint DEFAULT 0   ,
+ADD `timeline_date_format` tinyint DEFAULT 0   
+  Error: Table 'glpi_last.glpi_users' doesn't exist
+  Backtrace :
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\Migration.php:801                              DBmysql->doQueryOrDie()
+  src\Migration.php:846                              Migration->migrationOneTable()
+  install\migrations\update_10.0.5_to_10.0.6.php:69  Migration->executeMigration()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.005\", 16.93Mio)"} 
+[2024-06-10 15:46:57] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_entities` WHERE `glpi_entities`.`id` = '0' LIMIT 1
+  Error: Table 'glpi_last.glpi_entities' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\CommonDBTM.php:308                             DBmysql->request()
+  ...\View\Extension\FrontEndAssetsExtension.php:189 CommonDBTM->getFromDB()
+  ...ates\a3\a32df718f8c70b5b24fc90aef305cbb0.php:93 Glpi\Application\View\Extension\FrontEndAssetsExtension->customCss()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_083a641317b5963a33757fcf44518bf6->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Html.php:1320                                  Glpi\Application\View\TemplateRenderer->display()
+  src\Html.php:2070                                  Html::includeHeader()
+  inc\config.php:213                                 Html::nullHeader()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_plugins` SET `state` = '4' WHERE `state` = '1'
+  Error: Table 'glpi_last.glpi_plugins' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Plugin.php:1188                                DBmysql->update()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:617                             DBmysql->listFields()
+  src\CommonDBTM.php:3460                            CommonDBTM->getEmpty()
+  src\CommonDBTM.php:3879                            CommonDBTM->isField()
+  src\CommonDBTM.php:3813                            CommonDBTM->rawSearchOptions()
+  src\CommonDBTM.php:4170                            CommonDBTM->searchOptions()
+  src\CommonDBTM.php:4248                            CommonDBTM->getSearchOptionByField()
+  src\CommonDBTM.php:1308                            CommonDBTM->filterValues()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.018\", 16.21Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:617                             DBmysql->listFields()
+  src\CommonDBTM.php:3460                            CommonDBTM->getEmpty()
+  src\CommonDBTM.php:3890                            CommonDBTM->isField()
+  src\CommonDBTM.php:3813                            CommonDBTM->rawSearchOptions()
+  src\CommonDBTM.php:4170                            CommonDBTM->searchOptions()
+  src\CommonDBTM.php:4248                            CommonDBTM->getSearchOptionByField()
+  src\CommonDBTM.php:1308                            CommonDBTM->filterValues()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.016\", 16.21Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_events`
+  Error: Table 'glpi_last.glpi_events' doesn't exist
+  Backtrace :
+  src\DBmysql.php:959                                DBmysql->doQuery()
+  src\CommonDBTM.php:1316                            DBmysql->listFields()
+  src\Event.php:115                                  CommonDBTM->add()
+  src\Plugin.php:1210                                Glpi\Event::log()
+  src\Update.php:242                                 Plugin->unactivateAll()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.031\", 16.73Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_profiles`.`id` FROM `glpi_profiles` INNER JOIN `glpi_profilerights` AS `right1` ON (`right1`.`profiles_id` = `glpi_profiles`.`id` AND `right1`.`name` = 'cable_management' AND `right1`.`rights` & 23 = 23)
+  Error: Table 'glpi_last.glpi_profiles' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:1352                             DBmysql->request()
+  ...migrations\update_10.0.5_to_10.0.6\cable.php:48 Migration->updateRight()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.153\", 16.91Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_rulecriterias`.`id` AS `criteria_id`, `glpi_rulecriterias`.`criteria`, `glpi_rules`.`sub_type` FROM `glpi_rulecriterias` LEFT JOIN `glpi_rules` ON (`glpi_rulecriterias`.`rules_id` = `glpi_rules`.`id`) WHERE `glpi_rulecriterias`.`criteria` = 'name' AND `glpi_rules`.`sub_type` IN ('RuleDictionnaryOperatingSystemServicePack', 'RuleDictionnaryOperatingSystemEdition', 'RuleDictionnaryOperatingSystemArchitecture', 'RuleDictionnaryOperatingSystemVersion', 'RuleDictionnaryOperatingSystem')
+  Error: Table 'glpi_last.glpi_rulecriterias' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  ...\migrations\update_10.0.5_to_10.0.6\rule.php:75 DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.023\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_rules` WHERE `sub_type` = 'RuleImportAsset'
+  Error: Table 'glpi_last.glpi_rules' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\DbUtils.php:524                                DBmysql->request()
+  inc\db.function.php:192                            DbUtils->countElementsInTable()
+  ...ations\update_10.0.5_to_10.0.6\unmanaged.php:49 countElementsInTable()
+  install\migrations\update_10.0.5_to_10.0.6.php:63  require()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.027\", 16.94Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `users_id` FROM `glpi_displaypreferences` WHERE `itemtype` = 'NetworkPort'
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:951                              DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.002\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('NetworkPort', '6', '1', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `users_id` FROM `glpi_displaypreferences` WHERE `itemtype` = 'QueuedNotification'
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Migration.php:951                              DBmysql->request()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '16', '1', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '7', '2', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '20', '3', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '21', '4', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '22', '5', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_displaypreferences` (`itemtype`, `num`, `rank`, `users_id`) VALUES ('QueuedNotification', '15', '6', '0')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\Migration.php:1002                             DBmysql->insert()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: DELETE `glpi_displaypreferences` FROM `glpi_displaypreferences` WHERE `itemtype` = 'QueueMail' AND `num` IN ('16', '7', '20', '21', '22', '15')
+  Error: Table 'glpi_last.glpi_displaypreferences' doesn't exist
+  Backtrace :
+  src\DBmysql.php:1614                               DBmysql->doQuery()
+  src\Migration.php:1016                             DBmysql->delete()
+  install\migrations\update_10.0.5_to_10.0.6.php:67  Migration->updateDisplayPrefs()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.001\", 16.93Mio)"} 
+[2024-06-10 15:49:51] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: ALTER TABLE `glpi_users` ADD `timeline_action_btn_layout` tinyint DEFAULT 0   ,
+ADD `timeline_date_format` tinyint DEFAULT 0   
+  Error: Table 'glpi_last.glpi_users' doesn't exist
+  Backtrace :
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\Migration.php:801                              DBmysql->doQueryOrDie()
+  src\Migration.php:846                              Migration->migrationOneTable()
+  install\migrations\update_10.0.5_to_10.0.6.php:69  Migration->executeMigration()
+  src\Update.php:261                                 update1005to1006()
+  install\update.php:153                             Update->doUpdates()
+  install\update.php:276                             doUpdateDb()
+  {"user":"2@DESKTOP-Q1751HI","mem_usage":"0.002\", 16.93Mio)"} 

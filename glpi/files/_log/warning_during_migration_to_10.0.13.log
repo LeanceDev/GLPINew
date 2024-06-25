@@ -1,0 +1,9 @@
+2024-06-10 16:24:10 [2@DESKTOP-Q1751HI]
+209 colonnes utilisent la définition dépréciée, DATETIME. Exécutez la commande "php bin/console migration:timestamps" pour les migrer.
+2024-06-10 16:24:10 [2@DESKTOP-Q1751HI]
+351 tables utilisent le charset déprécié, utf8mb3. Exécutez la commande "php bin/console migration:utf8mb4" pour les migrer.
+2024-06-10 16:24:11 [2@DESKTOP-Q1751HI]
+1153 colonnes primaires ou étrangères utilisent des entiers signés Exécutez la commande "php bin/console migration:unsigned_keys" pour les migrer.
+2024-06-10 16:24:15 [2@DESKTOP-Q1751HI]
+Le schéma de base de données n'est pas conforme à celui de la version actuelle de GLPI.
+Il est recommandé d'exécuter la commande "php bin/console database:check_schema_integrity" pour voir les différences.
